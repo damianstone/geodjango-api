@@ -1,0 +1,33 @@
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+**/migrations
+*.DS_Store
+**/__pycache__
+**/.DS_Store
+
+# IDE
+.vscode/
+
+# Environment Vars
+.env
+
+# Python cache
+.pytest_cache/
+__pycache__/
+
+# Python env
+venv*
+.venv*
+
+# sqlite
+*.db
+
+# Tests
+.coverage
+
+#Images
+static*
+.static*
